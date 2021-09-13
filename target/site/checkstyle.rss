@@ -20,7 +20,7 @@ under the License.
 <rss version="0.91">
   <channel>
     <title>Simple Servlet with Session Replication - Checkstyle report</title>
-    <link>https://developers.redhat.com/quickstarts/eap/eap-session/</link>
+    <link>https://developers.redhat.com/quickstarts/eap/eap-helloworld/</link>
     <description>Simple Servlet with Session Replication - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2021 JBoss by Red Hat</copyright>
@@ -30,9 +30,9 @@ under the License.
              Warnings: 0,
              Infos: 0
       </title>
-            <link>https://developers.redhat.com/quickstarts/eap/eap-session//checkstyle.html</link>
+            <link>https://developers.redhat.com/quickstarts/eap/eap-helloworld//checkstyle.html</link>
       <description>
-        <p>Click <a href="https://developers.redhat.com/quickstarts/eap/eap-session//checkstyle.html">here</a> for the full Checkstyle report.</p>
+        <p>Click <a href="https://developers.redhat.com/quickstarts/eap/eap-helloworld//checkstyle.html">here</a> for the full Checkstyle report.</p>
 
         <table summary="Files" boder="1">
           <thead>
@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="https://developers.redhat.com/quickstarts/eap/eap-session//checkstyle.html#org.jboss.as.quickstarts.helloworld.CountObject.java">org/jboss/as/quickstarts/helloworld/CountObject.java</a>
+                  <a href="https://developers.redhat.com/quickstarts/eap/eap-helloworld//checkstyle.html#org.jboss.as.quickstarts.helloworld.CountObject.java">org/jboss/as/quickstarts/helloworld/CountObject.java</a>
                 </td>
                 <td>
                   0
@@ -60,7 +60,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://developers.redhat.com/quickstarts/eap/eap-session//checkstyle.html#org.jboss.as.quickstarts.helloworld.HelloService.java">org/jboss/as/quickstarts/helloworld/HelloService.java</a>
+                  <a href="https://developers.redhat.com/quickstarts/eap/eap-helloworld//checkstyle.html#org.jboss.as.quickstarts.helloworld.HelloService.java">org/jboss/as/quickstarts/helloworld/HelloService.java</a>
                 </td>
                 <td>
                   0
@@ -74,7 +74,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://developers.redhat.com/quickstarts/eap/eap-session//checkstyle.html#org.jboss.as.quickstarts.helloworld.HelloWorldServlet.java">org/jboss/as/quickstarts/helloworld/HelloWorldServlet.java</a>
+                  <a href="https://developers.redhat.com/quickstarts/eap/eap-helloworld//checkstyle.html#org.jboss.as.quickstarts.helloworld.HelloWorldServlet.java">org/jboss/as/quickstarts/helloworld/HelloWorldServlet.java</a>
                 </td>
                 <td>
                   0

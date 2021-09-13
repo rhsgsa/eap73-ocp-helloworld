@@ -28,11 +28,15 @@
         <version>7.3.0.GA</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>eap-session</artifactId>
+    <artifactId>eap-helloworld</artifactId>
     <packaging>war</packaging>
     <name>Simple Servlet with Session Replication</name>
     <description>Simple Servlet with Session Replication</description>
-
+    <properties>
+        <java.version>11</java.version>
+        <enforcer.skip>true</enforcer.skip>
+    </properties>
+    
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -252,7 +256,15 @@
                 <artifactId>wildfly-maven-plugin</artifactId>
                 <version>${version.wildfly.maven.plugin}</version>
             </plugin>
-            
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>11</source>  <!-- same as <java.version> -->
+                    <target>11</target>    <!-- same as <java.version> -->
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
